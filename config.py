@@ -29,4 +29,4 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     #Admin id is stored in 
-    LAZY_DEVELOPER = set(int(x) for x in os.environ.get("NFS", "NFS").split())
+    LAZY_DEVELOPER = set(int(x) for x in os.environ.get("NFS", "").split())
